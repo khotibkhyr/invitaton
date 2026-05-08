@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan - Imam & Nur</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cinzel:wght@400;700&family=Lora:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --navy: #14213d;
+            --gold: #d4af37;
+            --cream: #f5e6be;
+            --white: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Lora', serif;
+            background-color: var(--navy);
+            color: var(--cream);
+            text-align: center;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(rgba(20, 33, 61, 0.85), rgba(20, 33, 61, 0.85)), url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            border-bottom: 3px solid var(--gold);
+            padding: 20px;
+        }
+
+        .hero-content {
+            border: 2px solid var(--gold);
+            padding: 40px 20px;
+            max-width: 600px;
+            position: relative;
+        }
+
+        .sub-title {
+            font-family: 'Cinzel', serif;
+            letter-spacing: 5px;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .names {
+            font-family: 'Great Vibes', cursive;
+            font-size: 4.5rem;
+            color: var(--gold);
+            margin: 10px 0;
+        }
+
+        .date-hero {
+            font-family: 'Cinzel', serif;
+            font-size: 1.5rem;
+            letter-spacing: 3px;
+            margin-bottom: 30px;
+        }
+
+        .quotes {
+            font-style: italic;
+            font-size: 0.95rem;
+            max-width: 450px;
+            margin: 0 auto;
+        }
+
+        /* Detail Section */
+        .details {
+            padding: 100px 20px;
+            background-color: var(--navy);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .bismillah {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            font-family: serif;
+        }
+
+        .opening-text {
+            margin-bottom: 50px;
+            font-size: 1.1rem;
+        }
+
+        .mempelai {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+
+        .person h2 {
+            font-family: 'Great Vibes', cursive;
+            font-size: 3rem;
+            color: var(--gold);
+            margin-bottom: 10px;
+        }
+
+        .ampersand {
+            font-family: 'Cinzel', serif;
+            font-size: 2.5rem;
+            color: var(--gold);
+            margin: 10px 0;
+        }
+
+        /* Info Cards */
+        .event-info {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-top: 50px;
+        }
+
+        .card {
+            border: 1px solid var(--gold);
+            padding: 30px;
+            min-width: 280px;
+            background: rgba(255, 255, 255, 0.05);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card h3 {
+            font-family: 'Cinzel', serif;
+            color: var(--gold);
+            margin-bottom: 15px;
+            border-bottom: 1px solid var(--gold);
+            padding-bottom: 10px;
+        }
+
+        /* Location */
+        .location {
+            margin-top: 80px;
+            padding: 40px;
+            border: 1px dashed var(--gold);
+        }
+
+        .location h3 {
+            font-family: 'Cinzel', serif;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 30px;
+            background-color: var(--gold);
+            color: var(--navy);
+            text-decoration: none;
+            font-weight: bold;
+            font-family: 'Cinzel', serif;
+            border-radius: 2px;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: var(--cream);
+            letter-spacing: 2px;
+        }
+
+        footer {
+            padding: 40px;
+            font-size: 0.9rem;
+            border-top: 1px solid rgba(212, 175, 55, 0.2);
+        }
+
+        @media (max-width: 600px) {
+            .names { font-size: 3rem; }
+            .hero-content { padding: 20px 10px; }
+            .card { width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2 class="sub-title">Undangan Pernikahan</h2>
+            <h1 class="names">Imam & Nur</h1>
+            <p class="date-hero">11 . 06 . 2026</p>
+            <div class="quotes">
+                <p>"Cinta sejati bukanlah tentang menemukan seseorang yang sempurna, tetapi tentang menemukan seseorang yang mau bersama-sama menghadapi ketidaksempurnaan."</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="details">
+        <div class="container">
+            <h1 class="bismillah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</h1>
+            <p class="opening-text">Dengan penuh rasa syukur kepada Allah SWT dan penuh sukacita, kami mohon doa restu pada acara pernikahan kami:</p>
+            
+            <div class="mempelai">
+                <div class="person">
+                    <h2>Imam Alfi Sahri</h2>
+                    <p>Putra dari Bapak Sunardi & Ibu Rakini (Almh)</p>
+                </div>
+                
+                <div class="ampersand">&</div>
+                
+                <div class="person">
+                    <h2>Nur Isnaini Nafi</h2>
+                    <p>Putri dari Bapak Kanapi & Ibu Masudah</p>
+                </div>
+            </div>
+
+            <div class="event-info">
+                <div class="card">
+                    <h3>Akad Nikah</h3>
+                    <p>Kamis, 11 Juni 2026</p>
+                    <p>Pukul 08.00 WIB</p>
+                </div>
+                <div class="card">
+                    <h3>Resepsi</h3>
+                    <p>Kamis, 11 Juni 2026</p>
+                    <p>Pukul 09.00 WIB - Selesai</p>
+                </div>
+            </div>
+
+            <div class="location">
+                <h3>Lokasi Acara</h3>
+                <p><strong>Kediaman Mempelai Wanita</strong></p>
+                <p>Ds. Tluwuk Rt 02/Rw 02 Wedarijaksa Pati</p>
+                <a href="https://www.google.com/maps/search/Tluwuk+Wedarijaksa+Pati" target="_blank" class="btn">LIHAT LOKASI MAPS</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan do'a restu.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log("Undangan Digital Imam & Nur telah dimuat.");
+            
+            // Animasi sederhana saat scroll
+            const observerOptions = {
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = "1";
+                        entry.target.style.transform = "translateY(0)";
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('.card, .person, .location').forEach(el => {
+                el.style.opacity = "0";
+                el.style.transform = "translateY(20px)";
+                el.style.transition = "all 0.8s ease-out";
+                observer.observe(el);
+            });
+        });
+    </script>
+</body>
+</html>
